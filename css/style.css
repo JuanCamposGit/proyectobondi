@@ -3,8 +3,9 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: "Roboto"; color: white;
+	font-family: "Roboto"; color: grey;
 	background-color: black;
+	
 
 }
 
@@ -12,6 +13,7 @@ a{
 	text-decoration: none;
 	color: white;
 }
+
 
 li{
 	list-style-type: none;
@@ -24,11 +26,14 @@ li{
 h2{
 	color: limegreen;
 	size: 12px;
+
 }
 
 a:hover{
 	color: limegreen;
-	size: 10px;
+	size: 30px;
+	background-color: green;
+
 }
 
 ul{
@@ -46,6 +51,10 @@ p{
 
 }
 
+footer{
+	background-image: linear-gradient (to left black,grey)
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr ;
@@ -61,8 +70,12 @@ p{
 	height: 100%;
 }
 
-.header .ppal .parte-1 .parte-2 .parte-3 .parte-4 .footer {
+.header .ppal .parte-1 .parte-2 .parte-3 .parte-4  {
 	background-color: grey;
+}
+
+.footer {
+	background-image: linear-gradient (to-left grey, black)
 }
 
 .header{
@@ -151,6 +164,7 @@ flex-direction: column;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	
 
 }
 
@@ -160,3 +174,4 @@ flex-direction: column;
 	flex-direction: row;
 	display: flex;
 }
+
