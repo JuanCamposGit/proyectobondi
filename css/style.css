@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto"; color: white;
+	background-color: black;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	flex-wrap: wrap;
+
+}
+
+h2{
+	color: limegreen;
+	size: 12px;
+}
+
+a:hover{
+	color: limegreen;
+	size: 10px;
+}
+
+ul{
+	display: flex;
+}
+
+header img{
+	display: flex;
+	height: 45px;
+	width: 355px
+}
+
+p{
+	justify-content: center;
+
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 120px 300px 300px 120px ;
+	flex: flex;
+	grid-auto-flow: row;
+	grid-template-areas: "header header"
+	"parte-1 parte-2"
+	"parte-3 parte-4"
+	"footer footer"
+	;
+	width: 100%;
+	height: 100%;
+}
+
+.header .ppal .parte-1 .parte-2 .parte-3 .parte-4 .footer {
+	background-color: grey;
+}
+
+.header{
+	grid-area: header;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 10px;
+
+}
+
+
+.parte-1{
+	grid-area: parte-1;
+	display: flex;
+	flex-direction: row;
+	border-style: solid ;
+	padding-right: 0px;
+	text-align: center;
+
+
+}
+
+.parte-2{
+	grid-area: parte-2;
+	display: flex;
+	justify-content: center;
+	border-style: solid ;
+
+
+}
+
+
+.parte-3{
+	grid-area: parte-3;
+	display: flex;
+	padding-right: 0px;
+	justify-content: center;
+	border-style: solid ;
+	
+
+}
+.parte-4{
+	grid-area: parte-4;
+	display: flex;
+	flex-direction: row;
+	border-style: solid ;
+	text-align: center;
+}
+
+.parte-5{
+	grid-area: parte-5;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 350px;
+	border-style: solid
+}
+
+.parte-6 {	
+	grid-area: parte-6;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 350px;
+	border-style: solid
+
+}
+
+.dana{
+flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 110px;
+	border-style: solid
+
+
+}
+
+
+.footer{
+	grid-area: footer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.dana{
+	width: 30%;
+	height: 30%;
+	flex-direction: row;
+	display: flex;
+}
